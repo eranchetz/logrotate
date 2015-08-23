@@ -1,5 +1,5 @@
 FROM alpine
-MAINTAINER support@tutum.co
+MAINTAINER eran@streamrail.com
 
 RUN apk --update add logrotate
 RUN echo "*/5 *	* * *	/usr/sbin/logrotate /etc/logrotate.conf" >> /etc/crontabs/root
